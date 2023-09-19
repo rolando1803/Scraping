@@ -20,7 +20,7 @@ for i in sin_duplicados:
 
 #################################################
 
-maquina_noob = "noob-1" 
+maquina_noob = "maquinaxyz" 
 existe_noob = False
 
 for a in maquinas_final:
