@@ -11,6 +11,12 @@ maquinas_repetidas=re.findall(patron,str(content))
 
 sin_duplicados = list(set(maquinas_repetidas))
 
-print(sin_duplicados)
+maquinas_final = []
+
+for i in sin_duplicados:
+    nombre_maquinas = i.replace("/entry/","")
+    maquinas_final.append(nombre_maquinas)
+
+print(maquinas_final)
 
 
