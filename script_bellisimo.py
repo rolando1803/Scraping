@@ -16,7 +16,6 @@ maquinas_final = []
 for i in sin_duplicados:
     nombre_maquinas = i.replace("/entry/","")
     maquinas_final.append(nombre_maquinas)
-
-print(maquinas_final)
+    print(nombre_maquinas)
 
 
