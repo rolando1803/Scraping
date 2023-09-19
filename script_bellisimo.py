@@ -28,9 +28,12 @@ for a in maquinas_final:
         existe_noob=True
         break
 
+color_verde = Fore.GREEN
+colo_amarillo=Fore.YELLOW
+
 if existe_noob == True:
-    print("no hay maquina nueva")
+    print(color_verde + "no hay maquina nueva")
 else:
-    print("maquina nueva!!!")
+    print(colo_amarillo + "maquina nueva!!!")
 
 
