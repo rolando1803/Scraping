@@ -20,7 +20,7 @@ for i in sin_duplicados:
 
 #################################################
 
-maquina_noob = "maquinaxyz" 
+maquina_noob = "noob-1" 
 existe_noob = False
 
 for a in maquinas_final:
@@ -32,8 +32,8 @@ color_verde = Fore.GREEN
 colo_amarillo=Fore.YELLOW
 
 if existe_noob == True:
-    print(color_verde + "no hay maquina nueva")
+    print("\n"+color_verde + "no hay maquina nueva")
 else:
-    print(colo_amarillo + "maquina nueva!!!")
+    print("\n"+colo_amarillo + "maquina nueva!!!")
 
 
