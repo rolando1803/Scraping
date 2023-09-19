@@ -8,5 +8,9 @@ content = resultado.text
 
 patron = r"/entry/[\w-]*"
 maquinas_repetidas=re.findall(patron,str(content))
-print(maquinas_repetidas)
+
+sin_duplicados = list(set(maquinas_repetidas))
+
+print(sin_duplicados)
+
 
